@@ -1,0 +1,57 @@
+# Created by https://www.gitignore.io/api/macos,visualstudiocode
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+### ReactNative.Node Stack ###
+# Dependency directories
+# node_modules/
+# jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+typings.json
+
+# eslint
+.eslintrc.js
+
+
+# End of https://www.gitignore.io/api/macos,visualstudiocode
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/react-native-businesses.iml
+.idea/vcs.xml
+.vscode/settings.json

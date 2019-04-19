@@ -1,0 +1,17 @@
+{
+  "name": "react-native-bundle-splitting",
+  "version": "1.0.0",
+  "author": "Bryan Lau<bryanlau330@outlook.com>",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "@react-native-community/cli": "^1.9.1",
+    "@types/prop-types": "^15.5.2",
+    "react": "16.8.3",
+    "react-addons-perf": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^15.4.2",
+    "react-native": "^0.59.0"
+  }
+}
