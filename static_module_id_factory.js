@@ -13,6 +13,7 @@ const pathSep = require('path').sep;
 function createStaticModuleIdFactory() {
     const projectRootPath = __dirname;
     let fileMd5Cache = new Map()
+    
     return path => {
         const magicPrefix = 'require-';
         if (path.indexOf(magicPrefix) == 0) {
